@@ -11,7 +11,7 @@ const Blog = () => {
   // const [activeCategory, setActiveCategory] = useState(null);
 
   useEffect(() => {
-    let url = `/api/v2/post`;
+    let url = `https://news-app-15hj.onrender.com/api/v2/post`;
     // let url = `/api/v2/post?page=${currentPage}&limit=${page}`;
     // filter by catogary
     // if (selectedCategory) {
