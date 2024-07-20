@@ -25,7 +25,7 @@ const Header = () => {
         console.log(err);
       })
       .finally(() => {});
-  });
+  },[navigate]);
   const navItems = [
     {
       name: "Home",
