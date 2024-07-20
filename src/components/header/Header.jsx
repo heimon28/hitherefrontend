@@ -57,6 +57,11 @@ const Header = () => {
       path: "/logout",
       active: active,
     },
+    {
+      name: "edit",
+      path: "/edit",
+      active: active,
+    },
   ];
 
   return (
