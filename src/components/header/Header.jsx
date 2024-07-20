@@ -60,7 +60,7 @@ const Header = () => {
     {
       name: "edit",
       path: "/edit",
-      active: active,
+      active: !active,
     },
   ];
 
