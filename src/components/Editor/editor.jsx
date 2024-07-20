@@ -79,7 +79,7 @@ console.log('its author', author);
 
           <div className=" rounded bg-white  w-1/2">
             <Editor
-              apiKey="liegnt35mhu8htmftzkeaxr97m9fx33q2zi0fqfphscfwrwf"
+              apiKey="jt8c8ubapyqucav9ujomjipru7u9yf2eynkg25n0mvsg52y6"
               initialValue="Content"
               init={{
                 branding: false,
