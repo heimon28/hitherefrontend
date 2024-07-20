@@ -13,7 +13,7 @@ const Header = () => {
 
   useEffect(() => {
     axios
-      .get("/api/v2/users/current-user")
+      .get("https://news-app-15hj.onrender.com/api/v2/users/current-user")
       .then((res) => {
         if (res) {
           setActive(true);

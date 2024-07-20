@@ -46,7 +46,7 @@ console.log('its author', author);
     setUploading(true)
     setSubmit(true);
     await axios
-      .post("/api/v2/post", formData)
+      .post("https://news-app-15hj.onrender.com/api/v2/post", formData)
       .then((res) => {
         if (res) {
           setSubmit(false);

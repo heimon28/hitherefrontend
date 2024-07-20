@@ -9,7 +9,7 @@ function Login() {
     const [user, setUser] = useState({})
     const handleClick = (e) => {
         e.preventDefault()
-        axios.post('/api/v2/users/login', 
+        axios.post('https://news-app-15hj.onrender.com/api/v2/users/login', 
           {
             email: user.email,
             password: user.password
