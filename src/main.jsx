@@ -50,7 +50,7 @@ const router = createBrowserRouter([
       {
         path: 'single/:id',
         element: <SinglePost/>,
-       loader:({params}) =>  fetch(`/api/v2/post/${params.id}`)
+       loader:({params}) =>  fetch(`https://news-app-15hj.onrender.com/api/v2/post/${params.id}`)
       }
     ]
   }

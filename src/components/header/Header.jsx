@@ -95,7 +95,7 @@ const Header = () => {
       {isToggle
         ? navItems.map((item) =>
             item.active ? (
-              <ul>
+              <ul className="ml-72">
                 <li onClick={toggle} key={item.name}>
                   <NavLink
                     to={item.path}
